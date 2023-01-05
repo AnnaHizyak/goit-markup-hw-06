@@ -999,7 +999,9 @@ overflow-y: auto;
     width: 528px;
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
 }
 
 .form-title {
@@ -1113,7 +1115,6 @@ textarea:focus {
     height: 1px;
     margin: -1px;
     padding: 0;
-
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
@@ -1141,15 +1142,21 @@ textarea:focus {
     margin-left: 4px;
     color: rgba(33, 150, 243, 1);
 }
-
+/* .checkbox-label {
+    margin-bottom: 30px;
+} */
 .form-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     /* margin-top: 40px;
     margin-bottom: 40px; */
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 
-    margin: 40px auto;
+    /* margin: 0px auto; */
     padding: 10px 56px;
 
     border: none;
